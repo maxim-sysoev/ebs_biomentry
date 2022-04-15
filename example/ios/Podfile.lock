@@ -1,0 +1,35 @@
+PODS:
+  - ebs_biometry (0.0.1):
+    - EbsSDK (= 1.0.3)
+    - Flutter
+  - EbsSDK (1.0.3)
+  - Flutter (1.0.0)
+  - otp_autofill (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - ebs_biometry (from `.symlinks/plugins/ebs_biometry/ios`)
+  - Flutter (from `Flutter`)
+  - otp_autofill (from `.symlinks/plugins/otp_autofill/ios`)
+
+SPEC REPOS:
+  trunk:
+    - EbsSDK
+
+EXTERNAL SOURCES:
+  ebs_biometry:
+    :path: ".symlinks/plugins/ebs_biometry/ios"
+  Flutter:
+    :path: Flutter
+  otp_autofill:
+    :path: ".symlinks/plugins/otp_autofill/ios"
+
+SPEC CHECKSUMS:
+  ebs_biometry: 62096642e9d61f8f175b9d9f93268455903db164
+  EbsSDK: 0cd86a1e414995557c2fdca2b371b3d25391cefd
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  otp_autofill: 93bcc21475705d35445927cb9aef24e818bbf083
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.11.2

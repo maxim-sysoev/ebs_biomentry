@@ -1,0 +1,24 @@
+name: ebs_biometry_example
+description: Demonstrates how to use the ebs_biometry plugin.
+
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  ebs_biometry:
+    path: ../
+
+  cupertino_icons: ^1.0.0
+  otp_autofill: 0.0.1-dev.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
